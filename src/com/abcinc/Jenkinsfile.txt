@@ -1,0 +1,11 @@
+@Library('my-shared-lib') _
+import varsDemo
+
+def varsDemo = new varsDemo()
+
+varsDemo.stage_checkout();
+varsDemo.stage_clean();
+varsDemo.stage_package();
+varsDemo.stage_archive_reports();
+varsDemo.stage_sit();
+varsDemo.stage_uat("ABCInc");
